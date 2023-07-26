@@ -101,6 +101,7 @@ header
 }
 .gameimg1
 {
+  transition: all 2s ease-in-out;
   mix-blend-mode: difference;
   width: 20%;
   border: 2px solid #c32434;
@@ -150,6 +151,7 @@ header
   background: none;
   width: 200px;
   color:#c32434;
+  border: 1px solid red;
 }
 .third
 {
@@ -184,6 +186,7 @@ header
   background: none;
   width: 200px;
   color: #7ef9ff;
+  border: 1px solid blue;
 }
 .fourth
 {
@@ -217,6 +220,7 @@ header
   width: 200px;
   background: none;
   color: rgb(132, 255, 132);
+  border: 1px solid green;
 }
 .fifth
 {
@@ -225,7 +229,7 @@ header
 }
 .gameimg4
 {
-  mix-blend-mode:normal;
+  mix-blend-mode:hard-light;
   width: 20%;
   border: 2px solid #d34faf;
 }
@@ -250,6 +254,7 @@ header
   width: 200px;
   background: none;
   color: #e726b3;
+  border: 1px solid violet;
 }
 .sixth
 {
@@ -283,6 +288,7 @@ header
   width: 200px;
   background: none;
   color: yellow;
+  border: 1px solid yellow;
 }
 .seventh
 {
@@ -315,7 +321,8 @@ header
 {
   width: 200px;
   background: none;
-  color: rgb(104, 170, 227)
+  color: rgb(104, 170, 227);
+  border: 1px solid white;
 }
 footer
 {
